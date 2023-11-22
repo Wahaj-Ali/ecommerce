@@ -1,16 +1,15 @@
 export default {
-    name: 'banenr',
+    name: 'banner',
     title: 'Banner',
     type: 'document',
     fields: [
         {
             name: 'image',
             title: 'Image',
-            type: 'array',
-            of: [{type: 'image' }],
+            type: 'image',
             options: {
                 hotspot: true,
-            }
+            },
         },
         {
             name: 'buttonText',
@@ -33,8 +32,13 @@ export default {
             type: 'string',
         },
         {
-            name: 'largeText',
-            title: 'LargeText',
+            name: 'midText',
+            title: 'MidText',
+            type: 'string',
+        },
+        {
+            name: 'largeText1',
+            title: 'LargeText1',
             type: 'string',
         },
         {
@@ -52,5 +56,5 @@ export default {
             title: 'SaleTime',
             type: 'string',
         },
-    ]
-}
+    ],
+  };
