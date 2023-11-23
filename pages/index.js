@@ -6,7 +6,6 @@ const Home = ({ products, bannerData }) => {
   return (
     <>
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}/>
-    {console.log(bannerData)}
     <div className='products-heading'>
       <h2>Best Selling Products</h2>
       <p>Shoes of your Choice, Comfortable and Elegant Looking!</p>
